@@ -1,4 +1,6 @@
 ﻿using System.Text.RegularExpressions;
+// Make console input up to 100_000~(may be changed) symbols.
+Console.SetIn(new StreamReader(Console.OpenStandardInput(), Console.InputEncoding, false, 100_000));
 
 while (true)
 {
